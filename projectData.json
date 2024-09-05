@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Chatting Application",
+      "img": "ChatApp.jpg",
+      "description": "A Fullstack Chatting Application in iOS with Sentiment Analysis implementation and Adaptive UI Features",
+      "code": "https://github.com/rio-rishabh/FlashChatiOSApp.git",
+      "link": "https://github.com/rio-rishabh/FlashChatiOSApp.git"
+    },
+    {
+      "name": "Quiz India - Learn and Play India",
+      "img": "quiz.jpg",
+      "description": "An iOS application for Quiz with multiple categories and levels and keeps track of your score",
+      "code": "https://github.com/rio-rishabh/multiDomain-Quiz.git",
+      "link": "https://github.com/rio-rishabh/multiDomain-Quiz.git"
+    },
+    {
+      "name": "HackerNews",
+      "img": "TechBlog.jpeg",
+      "description": "HackerNews is an iOS application designed to keep you informed with the latest headlines from the tech world",
+      "code": "https://github.com/rio-rishabh/HackerNews.git",
+      "link": "https://github.com/rio-rishabh/HackerNews.git"
+    },
+    {
+      "name": "GameScout",
+      "img": "GameNews.jpg",
+      "description": "GameScout is an iOS application designed to help users discover and keep track of video games",
+      "code": "https://github.com/rio-rishabh/GameScout.git",
+      "link": "https://github.com/rio-rishabh/GameScout.git"
+    }
+  ]
+}
