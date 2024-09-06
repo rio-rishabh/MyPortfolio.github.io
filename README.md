@@ -1,12 +1,6 @@
 
 # MY Portfolio
 
-
-A description for your portfolio project should be clear, concise, and informative. It should highlight the project's goals, challenges, and outcomes. It should also showcase your skills and abilities.
-
-
-
-
 ## 🚀 About Me
 I am a FullStack Developer / Mobile Application Developer who is passionate about learning and constantly improving my skills in the field. My goal is to stay at the forefront of Mobile Application / Full Stack Development trends and technologies.
 
