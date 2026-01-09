@@ -1,2 +1,5 @@
 # SSH helper scripts
 add-ssh-key.sh
+
+# DS Store
+.DS_Store
