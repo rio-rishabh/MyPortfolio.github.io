@@ -2,7 +2,7 @@
 # MY Portfolio
 
 ## 🚀 About Me
-I am a FullStack Developer / Mobile Application Developer who is passionate about learning and constantly improving my skills in the field. My goal is to stay at the forefront of Mobile Application / Full Stack Development trends and technologies.
+I am a FullStack Developer / Mobile Application Developer who is passionate about learning and constantly improving my skills in the field. My goal is to stay at the forefront of Full Stack Development/ Mobile Application trends and technologies.
 
 In addition to my development work, I also enjoy sharing my Photgraphy on Different Platforms.
 
