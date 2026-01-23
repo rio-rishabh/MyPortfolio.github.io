@@ -3,30 +3,79 @@
     {
       "name": "Chatting Application",
       "img": "ChatApp.jpg",
-      "description": "A Fullstack Chatting Application in iOS with Sentiment Analysis implementation and Adaptive UI Features",
+      "description": "A Fullstack Chatting Application in iOS with Sentiment Analysis implementation and Adaptive UI Features. Built with real-time messaging capabilities and intelligent sentiment detection.",
+      "fullDescription": "A comprehensive iOS chat application featuring real-time messaging, sentiment analysis to detect emotional tone in messages, and adaptive UI that adjusts based on user preferences. The app includes user authentication, message encryption, and a modern, intuitive interface.",
+      "technologies": ["Swift", "SwiftUI", "Firebase", "Machine Learning"],
+      "category": "mobile",
       "code": "https://github.com/rio-rishabh/FlashChatiOSApp.git",
-      "link": "https://github.com/rio-rishabh/FlashChatiOSApp.git"
+      "link": "https://github.com/rio-rishabh/FlashChatiOSApp.git",
+      "demo": null
     },
     {
       "name": "Quiz India - Learn and Play India",
       "img": "quiz.jpg",
       "description": "An iOS application for Quiz with multiple categories and levels and keeps track of your score",
+      "fullDescription": "An engaging quiz application designed to test knowledge across various domains. Features include multiple difficulty levels, category-based questions, score tracking, progress monitoring, and a leaderboard system. Perfect for learning while having fun.",
+      "technologies": ["Swift", "UIKit", "Core Data"],
+      "category": "mobile",
       "code": "https://github.com/rio-rishabh/multiDomain-Quiz.git",
-      "link": "https://github.com/rio-rishabh/multiDomain-Quiz.git"
+      "link": "https://github.com/rio-rishabh/multiDomain-Quiz.git",
+      "demo": null
     },
     {
       "name": "HackerNews",
       "img": "TechBlog.jpeg",
       "description": "HackerNews is an iOS application designed to keep you informed with the latest headlines from the tech world",
+      "fullDescription": "A news aggregator iOS app that fetches and displays the latest technology news from HackerNews API. Features include article browsing, bookmarking favorite stories, offline reading capabilities, and a clean, readable interface optimized for news consumption.",
+      "technologies": ["Swift", "SwiftUI", "REST API", "URLSession"],
+      "category": "mobile",
       "code": "https://github.com/rio-rishabh/HackerNews.git",
-      "link": "https://github.com/rio-rishabh/HackerNews.git"
+      "link": "https://github.com/rio-rishabh/HackerNews.git",
+      "demo": null
     },
     {
       "name": "GameScout",
       "img": "GameNews.jpg",
       "description": "GameScout is an iOS application designed to help users discover and keep track of video games",
+      "fullDescription": "A comprehensive game discovery platform for iOS that helps users explore, track, and manage their video game library. Features include game search, detailed information, wishlist functionality, and personalized recommendations based on user preferences.",
+      "technologies": ["Swift", "SwiftUI", "Core Data", "REST API"],
+      "category": "mobile",
       "code": "https://github.com/rio-rishabh/GameScout.git",
-      "link": "https://github.com/rio-rishabh/GameScout.git"
+      "link": "https://github.com/rio-rishabh/GameScout.git",
+      "demo": null
+    },
+    {
+      "name": "Jenkins Integration Plugin",
+      "img": "MablJenkinsPlugin.jpg",
+      "description": "Jenkins Integration Plugin for mabl test execution",
+      "fullDescription": "A Jenkins Integration plugin for mabl test execution and error reporting developed using Java and Jenkins Pipeline",
+      "technologies": ["Java", "CI/CD"],
+      "category": "web",
+      "code": "https://github.com/rio-rishabh/mabl-integration-plugin",
+      "link": "https://github.com/rio-rishabh/mabl-integration-plugin",
+      "demo": null
+    },
+    {
+      "name": "CarryMate",
+      "img": "CarryMate.jpg",
+      "description": "CarryMate is a peer to peer delivery app for college students",
+      "fullDescription": "CarryMate is web application developed for helping college students to deliver their items to each other. This app is developed using React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. The aim of the app is to help college students to deliver their items to each other without any hassle and get awarded with points upon successful delivery which can be redeemed at the college stores.",
+      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB, 2FA, JWT, OAuth"],
+      "category": "web",
+      "code": "https://github.com/rio-rishabhNEU/final-project-error404.git",
+      "link": "https://github.com/rio-rishabhNEU/final-project-error404.git",
+      "demo": null
+    },
+    {
+      "name": "InternHub",
+      "img": "InternHub.jpg",
+      "description": "InternHub is a platform for students to find internships and jobs",
+      "fullDescription": "InternHub is a platform for student to find internships and jobs. Developed using Playwright for web automation and MCP to automate the job process. Uses Java for backend and Intenal Storage for data storage. The aim of the app is to help students to find internships and jobs without any hassle and get awarded with points upon successful application which can be redeemed at the college stores.",
+      "technologies": ["Playwright", "ModelContextProtocol", "Java", "Notion Integration", "Spring Boot", "Dom-Automation"],
+      "category": "fullstack",
+      "code": "https://github.com/rio-rishabh/JobScrapper.git",
+      "link": "https://github.com/rio-rishabh/JobScrapper.git",
+      "demo": null
     }
   ]
 }

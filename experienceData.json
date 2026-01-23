@@ -1,0 +1,58 @@
+{
+  "experiences": [
+    {
+      "type": "education",
+      "title": "Master of Science in Computer Science",
+      "organization": "Northeastern University",
+      "location": "Boston, Massachusetts",
+      "period": "2024 - Present",
+      "description": "Specializing in Full-Stack Software Engineering and Mobile Application Development. Focused on building scalable applications and mastering modern technologies.",
+      "icon": "fa-graduation-cap"
+    },
+    {
+      "type": "Experience",
+      "title": "Software Engineer",
+      "organization": "Mabl",
+      "location": "Boston, Massachusetts",
+      "period": "May 2025 - December 2025",
+      "description": "Built bidirectional Jira integration automating end-to-end test failure management-auto-generating detailed tickets with DOM screenshots, failure analysis, and test run metadata, reducing manual ticket creation efforts by 75% while maintaining real-time sync across platforms. Developed Xray test management integration enabling QA teams to trigger mabl test execution directly from Jira at both plan and test case levels, creating a unified source of truth that reduced testing workflow overhead by 85% and eliminated context-switching between tools. Integrated Jenkins CI/CD pipeline with mabl test agent to automate test execution and error reporting, streamlining continuous testing workflows and enabling real-time visibility into test failures across development cycles. Enhanced datatable functionality with improved search and filtering capabilities, reducing time spent locating test-specific data sets and improving overall test authoring efficiency by 40%.",
+      "points": [
+        "Built bidirectional Jira integration automating end-to-end test failure management, auto-generating detailed tickets with DOM screenshots, failure analysis, and test run metadata, reducing manual ticket creation efforts by 75%",
+        "Developed Xray test management integration enabling QA teams to trigger mabl test execution directly from Jira at both plan and test case levels, creating a unified source of truth that reduced testing workflow overhead by 85%",
+        "Integrated Jenkins CI/CD pipeline with mabl test agent to automate test execution and error reporting, streamlining continuous testing workflows and enabling real-time visibility into test failures",
+        "Enhanced datatable functionality with improved search and filtering capabilities, reducing time spent locating test-specific data sets and improving overall test authoring efficiency by 40%"
+      ],
+      "icon": "fa-laptop-code"
+    },
+    {
+      "type": "Experience",
+      "title": "Software Engineer",
+      "organization": "Publicis Sapient",
+      "location": "Bangalore, India",
+      "period": "Jun 2021 - May 2023",
+      "description": "Successfully implemented a microservices-based backend using Java Spring Boot, resulting in a 15% increase in system scalability and performance.Developed responsive front-end components with React.js and Redux, improving user interface load times by 20% and enhancing overall user experience.Implemented CI/CD pipeline using Jenkins, automating deployment processes and reducing release cycles from weeks to days.Integrated Elasticsearch for efficient full-text capabilities, improving search relevance by 25% and query performance by 40%",
+      "points": [
+        "Successfully implemented a microservices-based backend using Java Spring Boot, resulting in a 15% increase in system scalability and performance",
+        "Developed responsive front-end components with React.js and Redux, improving user interface load times by 20% and enhancing overall user experience",
+        "Implemented CI/CD pipeline using Jenkins, automating deployment processes and reducing release cycles from weeks to days",
+        "Integrated Elasticsearch for efficient full-text capabilities, improving search relevance by 25% and query performance by 40%"
+      ],
+      "icon": "fa-laptop-code"
+    },
+    {
+      "type": "Experience",
+      "title": "Software Engineer",
+      "organization": "Oracle Cerner",
+      "location": "Bangalore, India",
+      "period": "Sep 2019 - Aug 2020",
+      "description": "Engineered \"Sentinel\" data channel security system, enhancing overall data security measures by 25%.Leveraged Hadoop MapReduce framework to orchestrate distributed data processing across multiple nodes, achieving 40% reduction in data clustering latency.Engineered fault-tolerant messaging channels using Apache Kafka, improving system reliability by 99.99% and reducing message loss.Implemented load balancing algorithms, resulting in 35% increase in scalability",
+      "points": [
+        "Engineered \"Sentinel\" data channel security system, enhancing overall data security measures by 25%",
+        "Leveraged Hadoop MapReduce framework to orchestrate distributed data processing across multiple nodes, achieving 40% reduction in data clustering latency",
+        "Engineered fault-tolerant messaging channels using Apache Kafka, improving system reliability by 99.99% and reducing message loss",
+        "Implemented load balancing algorithms, resulting in 35% increase in scalability"
+      ],
+      "icon": "fa-laptop-code"
+    }
+  ]
+}

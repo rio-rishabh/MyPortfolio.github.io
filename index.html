@@ -3,6 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Rishabh Sharma - Full-Stack Developer & Mobile Application Developer. Portfolio showcasing projects, skills, and experience in software engineering." />
+    <meta name="keywords" content="Full-Stack Developer, Mobile Developer, iOS Developer, Software Engineer, React, Node.js, Swift, Portfolio" />
+    <meta name="author" content="Rishabh Sharma" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://rio-rishabh.github.io/MyPortfolio.github.io/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rio-rishabh.github.io/MyPortfolio.github.io/" />
+    <meta property="og:title" content="Rishabh Sharma | Full-Stack & Mobile Developer Portfolio" />
+    <meta property="og:description" content="Full-Stack Developer & Mobile Application Developer specializing in React, Node.js, Swift, and modern web technologies." />
+    <meta property="og:image" content="./img/favicon.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://rio-rishabh.github.io/MyPortfolio.github.io/" />
+    <meta property="twitter:title" content="Rishabh Sharma | Full-Stack & Mobile Developer Portfolio" />
+    <meta property="twitter:description" content="Full-Stack Developer & Mobile Application Developer specializing in React, Node.js, Swift, and modern web technologies." />
+    <meta property="twitter:image" content="./img/favicon.png" />
 
     <!-- Title Tag -->
     <title>&lt;RISHABH/&gt; | Portfolio</title>
@@ -25,17 +46,37 @@
   </head>
 
   <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#home" class="skip-link">Skip to main content</a>
+    
     <!-- PreLoader Div -->
-    <div id="preloader"></div>
+    <div id="preloader" role="status" aria-label="Loading page">
+      <div class="preloader-content">
+        <div class="preloader-spinner"></div>
+        <div class="preloader-text">Loading...</div>
+        <div class="preloader-progress">
+          <div class="preloader-progress-bar" id="preloaderProgress"></div>
+        </div>
+        <div class="preloader-percentage" id="preloaderPercentage">0%</div>
+      </div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <!-- NavBar HTML  -->
-      <header>
-      <nav>
+      <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
         </ul>
         <div class="second-div">
           <a
@@ -45,9 +86,9 @@
           >
             Resume<i class="fa-solid fa-download"></i>
           </a>
-          <div class="icon">
-            <i id="sun" class="fa-solid fa-sun"></i
-            ><i id="moon" class="fa-solid fa-moon"></i>
+          <div class="icon" role="button" aria-label="Toggle dark mode" tabindex="0">
+            <i id="sun" class="fa-solid fa-sun" aria-hidden="true"></i
+            ><i id="moon" class="fa-solid fa-moon" aria-hidden="true"></i>
           </div>
           <div class="hamburgur icon">
             <i id="bars" class="fa-solid fa-bars"></i>
@@ -58,32 +99,38 @@
     </header>
 
     <!-- Home Section HTML -->
-     <section id="home" class="hero">
-      <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">Heyy, I'm <span>Rishabh Sharma</span></h1>
-      <h2 data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">Full-Stack Developer / Mobile Application Developer</h2>
+     <section id="home" class="hero" role="main">
+      <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+        <span class="typing-text">Heyy, I'm </span>
+        <span class="typing-name" id="typingName">Rishabh Sharma</span>
+        <span class="typing-cursor">|</span>
+      </h1>
+      <h2 data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="hero-subtitle">
+        <span class="subtitle-text">Full-Stack Developer / Mobile Application Developer</span>
+      </h2>
       <div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="links-icon">
         <span
-          ><a href="https://github.com/rio-rishabh" target="_blank"
-            ><img src="./img/github1.svg"" height=" 25" alt=""></a
+          ><a href="https://github.com/rio-rishabh" target="_blank" aria-label="GitHub profile"
+            ><img src="./img/github1.svg" height="25" alt="GitHub icon"></a
           ></span
         >
 
         <span
-          ><a href="https://www.instagram.com/rio_rishabh/" target="_blank"
-            ><img src="./img/instagram.svg"" height=" 25" alt=""></a
+          ><a href="https://www.instagram.com/rio_rishabh/" target="_blank" aria-label="Instagram profile"
+            ><img src="./img/instagram.svg" height="25" alt="Instagram icon"></a
           ></span
         >
         <span
-          ><a href="https://www.linkedin.com/in/rishabhsharma7942/" target="_blank"
-            ><img src="./img/linkedin.svg"" height=" 25" alt=""></a
+          ><a href="https://www.linkedin.com/in/rishabhsharma7942/" target="_blank" aria-label="LinkedIn profile"
+            ><img src="./img/linkedin.svg" height="25" alt="LinkedIn icon"></a
           ></span
         >
       </div>
-      <div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine"><a  href="#contact" id="button">Hire Me </a></div>
+      <div data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-sine"><a href="#contact" class="button">Hire Me </a></div>
     </section> 
 
     <!-- About Section HTMl -->
-   <section id="about" class="about">
+   <section id="about" class="about" aria-label="About section">
       <div class="about-head">
         <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-sine">Let's Introduce myself</h1>
       </div>
@@ -108,197 +155,195 @@
         </div>
         <div class="card skills">
           <h4 class="card-heading" data-aos="zoom-in" data-aos-duration="1500">My Skills</h4>
-          <div class="card-contain">
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/javascript-js.svg"
-                alt=""
-                height="24px"
-              />JavaScript</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/html.svg"
-                alt=""
-                height="24px"
-              />HTML</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/css.svg"
-                alt=""
-                height="24px"
-              />CSS</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/react.svg"
-                alt=""
-                height="24px"
-              />React.JS</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/swiftui.svg"
-                alt=""
-                height="24px"
-              />SwiftUI</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/nodejs.svg"
-                alt=""
-                height="24px"
-              />node.JS</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/mysql.svg"
-                alt=""
-                height="24px"
-              />Mysql</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/swift.svg"
-                alt=""
-                height="24px"
-              />Swift</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/bootstrap.svg"
-                alt=""
-                height="24px"
-              />Bootstrap</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/java.svg"
-                alt=""
-                height="24px"
-              />Java</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/spring-boot.svg"
-                alt=""
-                height="24px"
-              />SpringBoot</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/firebase.svg"
-                alt=""
-                height="24px"
-              />Firebase</span
-            >
-
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/uikit.svg"
-                alt=""
-                height="24px"
-              />Swift-UIKit</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/git.svg"
-                alt=""
-                height="24px"
-              />Git</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/github.svg"
-                alt=""
-                height="24px"
-              />Github</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/256px-Playwright_Logo.svg.png"
-                alt=""
-                height="24px"
-              />Playwright Browser Automation</span
-            >
-            <span data-aos="zoom-in" data-aos-duration="1500"
-              ><img
-                src="./img/Skills icon/128px-Model_Context_Protocol_logo.svg.png"
-                alt=""
-                height="24px"
-              />Model Context Protocol</span
-            >
+          <div class="skills-controls" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="skill-filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="frontend">Frontend</button>
+              <button class="filter-btn" data-filter="backend">Backend</button>
+              <button class="filter-btn" data-filter="mobile">Mobile</button>
+              <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+            <div class="skill-search">
+              <input type="text" id="skillSearch" placeholder="Search skills..." aria-label="Search skills">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="card-contain" id="skillsContainer">
+            <!-- Skills will be dynamically loaded here -->
+          </div>
+        </div>
+        <div class="card learning">
+          <h4 class="card-heading" data-aos="zoom-in" data-aos-duration="1500">What I'm Learning</h4>
+          <div class="learning-content" data-aos="zoom-in" data-aos-duration="1500">
+            <p>
+              I'm continuously expanding my skill set and staying updated with the latest technologies. Currently focusing on:
+            </p>
+            <ul class="learning-list">
+              <li><i class="fa-solid fa-code"></i> Advanced Full Stack Development</li>
+              <li><i class="fa-solid fa-server"></i> Microservices architecture and cloud deployment</li>
+              <li><i class="fa-solid fa-mobile-screen-button"></i> Advanced iOS development with SwiftUI</li>
+              <li><i class="fa-solid fa-brain"></i>AI integration and Cross Browser Automation</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics">
+      <div class="stats-container">
+        <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="stat-number" data-target="20">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+          <div class="stat-number" data-target="21">0</div>
+          <div class="stat-label">Technologies Mastered</div>
+        </div>
+        <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+          <div class="stat-number" data-target="4">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">GitHub Contributions</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="timeline" class="timeline-section">
+      <div class="timeline-head">
+        <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-sine">Experience & <span>Education</span></h1>
+      </div>
+      <div class="timeline-container" id="timelineContainer">
+        <!-- Timeline items will be dynamically loaded here -->
+      </div>
+    </section>
+
     <!-- Project Section HTML -->
-    <section id="projects" class="projects">
+    <section id="projects" class="projects" aria-label="Projects portfolio">
       <div class="project-head">
         <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-sine">My <span>Portfolio</span></h1>
       </div>
+      <div class="project-controls" data-aos="fade-up" data-aos-duration="1100">
+        <div class="project-filters">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="mobile">Mobile</button>
+          <button class="project-filter-btn" data-filter="web">Web</button>
+          <button class="project-filter-btn" data-filter="fullstack">Full Stack</button>
+        </div>
+        <div class="project-search">
+          <input type="text" id="projectSearch" placeholder="Search projects..." aria-label="Search projects">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
       <div class="project-body"></div>
     </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          <i class="fa-solid fa-times"></i>
+        </button>
+        <div class="modal-body" id="modalBody">
+          <!-- Modal content will be dynamically loaded here -->
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Section HTML -->
      <div id="contact" class="contact">
       <div class="contact-heading" data-aos="zoom-in-up">
         <h1>Let's Connect</h1>
-
+        <div class="quick-contact" data-aos="zoom-in-up" data-aos-delay="100">
+          <button class="quick-contact-btn" id="copyEmailBtn" aria-label="Copy email address">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Copy Email</span>
+            <span class="copy-feedback" id="copyFeedback">Copied!</span>
+          </button>
+          <a href="tel:+1857-423-9193" class="quick-contact-btn" aria-label="Call phone number">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Me</span>
+          </a>
+          <div class="social-links-enhanced">
+            <a href="https://github.com/rio-rishabh" target="_blank" class="social-link" aria-label="GitHub profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rishabhsharma7942/" target="_blank" class="social-link" aria-label="LinkedIn profile">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/rio_rishabh/" target="_blank" class="social-link" aria-label="Instagram profile">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="contact-form" data-aos="zoom-in-up">
-        <form action="https://formspree.io/f/xgejndqa" method="POST">
-          <label>
+        <form id="contactForm" action="https://formspree.io/f/xgejndqa" method="POST">
+          <div class="form-message" id="formMessage"></div>
+          <label class="form-group">
             <input
               type="email"
               name="email"
+              id="email"
               placeholder="Email Address"
               required
               autocomplete="off"
+              aria-label="Email Address"
             />
+            <span class="error-message" id="emailError"></span>
           </label>
-          <label>
+          <label class="form-group">
             <input
               type="text"
               name="name"
+              id="name"
               placeholder="Enter Full Name"
               required
               autocomplete="off"
+              aria-label="Full Name"
             />
+            <span class="error-message" id="nameError"></span>
           </label>
-          <label>
+          <label class="form-group">
             <input
-              type="subject"
+              type="text"
               name="subject"
+              id="subject"
               placeholder="Subject"
               required
               autocomplete="off"
+              aria-label="Subject"
             />
+            <span class="error-message" id="subjectError"></span>
           </label>
-          <label>
+          <label class="form-group">
             <textarea
-             
               name="message"
+              id="message"
               placeholder="Type me your Message Here....."
               required
               autocomplete="off"
+              aria-label="Message"
             ></textarea>
+            <span class="error-message" id="messageError"></span>
           </label>
          <div>
-          <button id="button" type="submit">Send Message</button>
+          <button type="submit" id="submitBtn" class="button">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loader" id="btnLoader">
+              <i class="fa-solid fa-spinner fa-spin"></i>
+            </span>
+          </button>
          </div>
         </form>
       </div>
     </div>
     <!-- Footer Section HTML -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="upper-box">
         <div class="footer-name footer-flex">
           <h2><strong>Rishabh Sharma</strong></h2>
@@ -311,24 +356,39 @@
           <h2>Social Media</h2>
           <div class="links-icon">
             <span
-              ><a href="https://github.com/rio-rishabh" target="_blank"
-                ><img src="./img/github1.svg" height=" 25" alt=""></a
+              ><a href="https://github.com/rio-rishabh" target="_blank" aria-label="GitHub profile"
+                ><img src="./img/github1.svg" height="25" alt="GitHub icon"></a
               ></span
             >
             <span
-              ><a href="https://www.instagram.com/rio_rishabh/" target="_blank"
-                ><img src="./img/instagram.svg" height=" 25" alt=""></a
+              ><a href="https://www.instagram.com/rio_rishabh/" target="_blank" aria-label="Instagram profile"
+                ><img src="./img/instagram.svg" height="25" alt="Instagram icon"></a
               ></span
             >
             <span
-              ><a href="https://www.linkedin.com/in/rishabhsharma7942/" target="_blank"
-                ><img src="./img/linkedin.svg" height=" 25" alt=""></a
+              ><a href="https://www.linkedin.com/in/rishabhsharma7942/" target="_blank" aria-label="LinkedIn profile"
+                ><img src="./img/linkedin.svg" height="25" alt="LinkedIn icon"></a
               ></span
             >
           </div>
         </div>
       </div>
       <div class="thanks">
+        <div class="share-section">
+          <span>Share this portfolio:</span>
+          <div class="share-buttons">
+            <button class="share-btn" data-platform="twitter" aria-label="Share on Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="share-btn" data-platform="linkedin" aria-label="Share on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </button>
+            <button class="share-btn" data-platform="copy" aria-label="Copy portfolio URL">
+              <i class="fa-solid fa-link"></i>
+            </button>
+          </div>
+          <div class="copy-feedback-share" id="copyFeedbackShare">URL Copied!</div>
+        </div>
         © 2026 Rishabh Sharma | Handcrafted with ❤️ 
       </div>
     </footer>

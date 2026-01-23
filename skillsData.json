@@ -1,0 +1,151 @@
+{
+  "skills": [
+    {
+      "name": "JavaScript",
+      "icon": "./img/Skills icon/javascript-js.svg",
+      "category": "frontend",
+      "proficiency": 85,
+      "experience": "3 years"
+    },
+    {
+      "name": "HTML",
+      "icon": "./img/Skills icon/html.svg",
+      "category": "frontend",
+      "proficiency": 90,
+      "experience": "4+ years"
+    },
+    {
+      "name": "CSS",
+      "icon": "./img/Skills icon/css.svg",
+      "category": "frontend",
+      "proficiency": 88,
+      "experience": "4+ years"
+    },
+    {
+      "name": "React.JS",
+      "icon": "./img/Skills icon/react.svg",
+      "category": "frontend",
+      "proficiency": 80,
+      "experience": "2+ years"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "./img/Skills icon/bootstrap.svg",
+      "category": "frontend",
+      "proficiency": 75,
+      "experience": "3+ years"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "./img/Skills icon/tailwind-css.svg",
+      "category": "frontend",
+      "proficiency": 70,
+      "experience": "1+ year"
+    },
+    {
+      "name": "Redux",
+      "icon": "./img/Skills icon/redux-original.svg",
+      "category": "frontend",
+      "proficiency": 70,
+      "experience": "1+ year"
+    },
+    {
+      "name": "Node.JS",
+      "icon": "./img/Skills icon/nodejs.svg",
+      "category": "backend",
+      "proficiency": 75,
+      "experience": "2+ years"
+    },
+    {
+      "name": "Express",
+      "icon": "./img/Skills icon/express.svg",
+      "category": "backend",
+      "proficiency": 70,
+      "experience": "2+ years"
+    },
+    {
+      "name": "Java",
+      "icon": "./img/Skills icon/java.svg",
+      "category": "backend",
+      "proficiency": 80,
+      "experience": "3+ years"
+    },
+    {
+      "name": "SpringBoot",
+      "icon": "./img/Skills icon/spring-boot.svg",
+      "category": "backend",
+      "proficiency": 75,
+      "experience": "2+ years"
+    },
+    {
+      "name": "MySQL",
+      "icon": "./img/Skills icon/mysql.svg",
+      "category": "backend",
+      "proficiency": 78,
+      "experience": "2+ years"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "./img/Skills icon/mongodb.svg",
+      "category": "backend",
+      "proficiency": 72,
+      "experience": "1+ year"
+    },
+    {
+      "name": "Swift",
+      "icon": "./img/Skills icon/swift.svg",
+      "category": "mobile",
+      "proficiency": 82,
+      "experience": "2+ years"
+    },
+    {
+      "name": "SwiftUI",
+      "icon": "./img/Skills icon/swiftui.svg",
+      "category": "mobile",
+      "proficiency": 80,
+      "experience": "2+ years"
+    },
+    {
+      "name": "Swift-UIKit",
+      "icon": "./img/Skills icon/uikit.svg",
+      "category": "mobile",
+      "proficiency": 75,
+      "experience": "1+ year"
+    },
+    {
+      "name": "Firebase",
+      "icon": "./img/Skills icon/firebase.svg",
+      "category": "mobile",
+      "proficiency": 70,
+      "experience": "1+ year"
+    },
+    {
+      "name": "Git",
+      "icon": "./img/Skills icon/git.svg",
+      "category": "tools",
+      "proficiency": 85,
+      "experience": "3+ years"
+    },
+    {
+      "name": "Github",
+      "icon": "./img/Skills icon/github.svg",
+      "category": "tools",
+      "proficiency": 88,
+      "experience": "3+ years"
+    },
+    {
+      "name": "Playwright",
+      "icon": "./img/Skills icon/256px-Playwright_Logo.svg.png",
+      "category": "tools",
+      "proficiency": 65,
+      "experience": "6+ months"
+    },
+    {
+      "name": "MCP",
+      "icon": "./img/Skills icon/128px-Model_Context_Protocol_logo.svg.png",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    }
+  ]
+}

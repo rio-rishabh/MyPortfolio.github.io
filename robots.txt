@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rio-rishabh.github.io/MyPortfolio.github.io/sitemap.xml
