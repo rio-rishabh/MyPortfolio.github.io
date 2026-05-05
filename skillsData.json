@@ -146,6 +146,48 @@
       "category": "tools",
       "proficiency": 60,
       "experience": "6+ months"
+    },
+    {
+      "name": "Redis",
+      "icon": "./img/Skills icon/Redis-Logo.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    },
+    {
+      "name": "GraphQL",
+      "icon": "./img/Skills icon/react-router.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    },
+    {
+      "name": "Manifest V3",
+      "icon": "./img/Skills icon/Manifest-V3.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    },
+    {
+      "name": "Headless browser",
+      "icon": "./img/Skills icon/responsive.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    },
+    {
+      "name": "Gemini API",
+      "icon": "./img/Skills icon/OpenRouter.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
+    },
+    {
+      "name":"OpenRouter API",
+      "icon": "./img/Skills icon/OpenRouter.svg",
+      "category": "tools",
+      "proficiency": 60,
+      "experience": "6+ months"
     }
   ]
 }

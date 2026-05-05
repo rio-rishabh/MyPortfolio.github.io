@@ -5,12 +5,12 @@
       "title": "Master of Science in Computer Science",
       "organization": "Northeastern University",
       "location": "Boston, Massachusetts",
-      "period": "2024 - Present",
+      "period": "Jan 2024 - May 2026",
       "description": "Specializing in Full-Stack Software Engineering and Mobile Application Development. Focused on building scalable applications and mastering modern technologies.",
       "icon": "fa-graduation-cap"
     },
     {
-      "type": "Experience",
+      "type": "experience",
       "title": "Software Engineer",
       "organization": "Mabl",
       "location": "Boston, Massachusetts",
@@ -25,7 +25,7 @@
       "icon": "fa-laptop-code"
     },
     {
-      "type": "Experience",
+      "type": "experience",
       "title": "Software Engineer",
       "organization": "Publicis Sapient",
       "location": "Bangalore, India",
@@ -40,7 +40,7 @@
       "icon": "fa-laptop-code"
     },
     {
-      "type": "Experience",
+      "type": "experience",
       "title": "Software Engineer",
       "organization": "Oracle Cerner",
       "location": "Bangalore, India",

@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "name": "TabSense-AI-Powered-Semantic-Tab-Search",
+      "img": "TabSense.jpg",
+      "description": "An AI-powered Chrome extension",
+      "fullDescription": "An AI-powered Chrome extension: Semantic Tab Search that allows you to search for tabs based on their content and context.",
+      "technologies": ["Retrieval-Augmented Generation (RAG)", "Vector embeddings", "Cosine similarity", "Top-K retrieval", "Prompt engineering", "Google Gemini API", "LangChain4j","Redis","Client-server architecture","GraphQL schema", "Client-side persistence", "Manifest V3", "Browser extension", "Headless browser"],
+      "category": "fullstack",
+      "code": "https://github.com/rio-rishabh/TabSense-AI-Powered-Semantic-Tab-Search.git",
+      "link": "https://github.com/rio-rishabh/TabSense-AI-Powered-Semantic-Tab-Search.git",
+      "demo": null
+    },
+    {
+      "name": "InternHub",
+      "img": "InternHub.jpg",
+      "description": "InternHub is a platform for students to find internships and jobs",
+      "fullDescription": "InternHub is a platform for student to find internships and jobs. Developed using Playwright for web automation and MCP to automate the job process. Uses Java for backend and Intenal Storage for data storage. The aim of the app is to help students to find internships and jobs without any hassle and get awarded with points upon successful application which can be redeemed at the college stores.",
+      "technologies": ["Playwright", "ModelContextProtocol", "Java", "Notion Integration", "Spring Boot", "Dom-Automation"],
+      "category": "fullstack",
+      "code": "https://github.com/rio-rishabh/JobScrapper.git",
+      "link": "https://github.com/rio-rishabh/JobScrapper.git",
+      "demo": null
+    },
+    {
       "name": "Chatting Application",
       "img": "ChatApp.jpg",
       "description": "A Fullstack Chatting Application in iOS with Sentiment Analysis implementation and Adaptive UI Features. Built with real-time messaging capabilities and intelligent sentiment detection.",
@@ -64,17 +86,6 @@
       "category": "web",
       "code": "https://github.com/rio-rishabhNEU/final-project-error404.git",
       "link": "https://github.com/rio-rishabhNEU/final-project-error404.git",
-      "demo": null
-    },
-    {
-      "name": "InternHub",
-      "img": "InternHub.jpg",
-      "description": "InternHub is a platform for students to find internships and jobs",
-      "fullDescription": "InternHub is a platform for student to find internships and jobs. Developed using Playwright for web automation and MCP to automate the job process. Uses Java for backend and Intenal Storage for data storage. The aim of the app is to help students to find internships and jobs without any hassle and get awarded with points upon successful application which can be redeemed at the college stores.",
-      "technologies": ["Playwright", "ModelContextProtocol", "Java", "Notion Integration", "Spring Boot", "Dom-Automation"],
-      "category": "fullstack",
-      "code": "https://github.com/rio-rishabh/JobScrapper.git",
-      "link": "https://github.com/rio-rishabh/JobScrapper.git",
       "demo": null
     }
   ]
