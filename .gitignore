@@ -3,3 +3,4 @@ add-ssh-key.sh
 
 # DS Store
 .DS_Store
+**/.DS_Store

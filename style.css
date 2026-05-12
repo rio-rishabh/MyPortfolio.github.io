@@ -120,6 +120,15 @@
 :root {
   /* light Modes Varibles*/
   --bg-color: #ffffff;
+  --page-gradient: linear-gradient(
+    136deg,
+    rgb(68, 132, 206),
+    rgb(26, 215, 192),
+    rgb(255, 155, 17),
+    rgb(155, 89, 182),
+    rgb(255, 127, 127),
+    rgb(236, 240, 241)
+  );
   --text-heading: #6366f1;
   --text-normal: #334155;
   --gray-bg: rgba(148, 163, 184, 0.15);
@@ -134,6 +143,15 @@
 /* Dark Modes Varibles*/
 .dark-mode {
   --bg-color: #0f172a;
+  --page-gradient: linear-gradient(
+    136deg,
+    rgb(15, 23, 42),
+    rgb(30, 41, 59),
+    rgb(55, 48, 163),
+    rgb(109, 40, 217),
+    rgb(244, 114, 182),
+    rgb(148, 163, 184)
+  );
   --text-heading: #818cf8;
   --text-normal: #cbd5e1;
   --gray-bg: rgba(51, 65, 85, 0.4);
@@ -163,11 +181,32 @@ body {
   margin: 0;
   padding: 0;
   font-family: nunito;
-  background-color: var(--bg-color);
+  background: var(--page-gradient);
+  background-size: 1200% 1200%;
+  background-position: 0% 50%;
+  animation: pageGradientShift 30s ease infinite;
   color: var(--text-normal);
   letter-spacing: 0.8px;
   overflow-x: hidden;
   font-size: 10px;
+}
+
+@keyframes pageGradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
 }
 
 li {
