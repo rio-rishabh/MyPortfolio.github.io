@@ -119,60 +119,60 @@
 /* Variables Declearations */
 :root {
   /* Core palette */
-  --lime-cream: #d9ed92;
-  --light-green: #b5e48c;
-  --light-green-2: #99d98c;
-  --emerald: #76c893;
-  --ocean-mist: #52b69a;
-  --tropical-teal: #34a0a4;
-  --bondi-blue: #168aad;
-  --cerulean: #1a759f;
-  --baltic-blue: #1e6091;
-  --yale-blue: #184e77;
+  --ink-black: #001219ff;
+  --dark-teal: #005f73ff;
+  --dark-cyan: #0a9396ff;
+  --pearl-aqua: #94d2bdff;
+  --vanilla-custard: #e9d8a6ff;
+  --golden-orange: #ee9b00ff;
+  --burnt-caramel: #ca6702ff;
+  --rusty-spice: #bb3e03ff;
+  --oxidized-iron: #ae2012ff;
+  --brown-red: #9b2226ff;
 
   /* light Modes Varibles*/
-  --bg-color: #eef8de;
+  --bg-color: #f9f6e9;
   --page-gradient: linear-gradient(
     136deg,
-    var(--lime-cream),
-    var(--light-green),
-    var(--emerald),
-    var(--ocean-mist),
-    var(--bondi-blue),
-    var(--yale-blue)
+    var(--dark-teal),
+    var(--dark-cyan),
+    var(--pearl-aqua),
+    var(--vanilla-custard),
+    var(--golden-orange),
+    var(--rusty-spice)
   );
-  --text-heading: var(--yale-blue);
-  --text-normal: #16324a;
-  --gray-bg: rgba(24, 78, 119, 0.12);
-  --linear-bg: linear-gradient(135deg, var(--tropical-teal) 0%, var(--bondi-blue) 55%, var(--yale-blue) 100%);
-  --accent-primary: var(--bondi-blue);
-  --accent-secondary: var(--tropical-teal);
-  --accent-tertiary: var(--light-green-2);
-  --shadow-color: rgba(22, 138, 173, 0.25);
-  --hover-bg: rgba(82, 182, 154, 0.14);
+  --text-heading: var(--dark-teal);
+  --text-normal: #102a30;
+  --gray-bg: rgba(0, 95, 115, 0.12);
+  --linear-bg: linear-gradient(135deg, var(--dark-cyan) 0%, var(--golden-orange) 55%, var(--burnt-caramel) 100%);
+  --accent-primary: var(--dark-cyan);
+  --accent-secondary: var(--golden-orange);
+  --accent-tertiary: var(--burnt-caramel);
+  --shadow-color: rgba(0, 95, 115, 0.22);
+  --hover-bg: rgba(10, 147, 150, 0.12);
 }
 
 /* Dark Modes Varibles*/
 .dark-mode {
-  --bg-color: #0c3654;
+  --bg-color: #001219;
   --page-gradient: linear-gradient(
     136deg,
-    var(--yale-blue),
-    var(--baltic-blue),
-    var(--cerulean),
-    var(--bondi-blue),
-    var(--tropical-teal),
-    var(--ocean-mist)
+    var(--ink-black),
+    var(--dark-teal),
+    var(--dark-cyan),
+    var(--brown-red),
+    var(--oxidized-iron),
+    var(--burnt-caramel)
   );
-  --text-heading: var(--lime-cream);
-  --text-normal: #eff8d5;
-  --gray-bg: rgba(217, 237, 146, 0.14);
-  --linear-bg: linear-gradient(135deg, var(--ocean-mist) 0%, var(--bondi-blue) 55%, var(--yale-blue) 100%);
-  --accent-primary: var(--lime-cream);
-  --accent-secondary: var(--light-green);
-  --accent-tertiary: var(--ocean-mist);
-  --shadow-color: rgba(217, 237, 146, 0.25);
-  --hover-bg: rgba(181, 228, 140, 0.16);
+  --text-heading: var(--pearl-aqua);
+  --text-normal: #e6f4ef;
+  --gray-bg: rgba(148, 210, 189, 0.16);
+  --linear-bg: linear-gradient(135deg, var(--dark-cyan) 0%, var(--golden-orange) 60%, var(--rusty-spice) 100%);
+  --accent-primary: var(--pearl-aqua);
+  --accent-secondary: var(--golden-orange);
+  --accent-tertiary: var(--rusty-spice);
+  --shadow-color: rgba(148, 210, 189, 0.26);
+  --hover-bg: rgba(148, 210, 189, 0.12);
 }
 
 /* Universal CSS Code */
