@@ -118,49 +118,61 @@
 
 /* Variables Declearations */
 :root {
+  /* Core palette */
+  --ink-black: #001219;
+  --dark-teal: #005f73;
+  --dark-cyan: #0a9396;
+  --pearl-aqua: #94d2bd;
+  --vanilla-custard: #e9d8a6;
+  --golden-orange: #ee9b00;
+  --burnt-caramel: #ca6702;
+  --rusty-spice: #bb3e03;
+  --oxidized-iron: #ae2012;
+  --brown-red: #9b2226;
+
   /* light Modes Varibles*/
-  --bg-color: #ffffff;
+  --bg-color: #f9f6e9;
   --page-gradient: linear-gradient(
     136deg,
-    rgb(68, 132, 206),
-    rgb(26, 215, 192),
-    rgb(255, 155, 17),
-    rgb(155, 89, 182),
-    rgb(255, 127, 127),
-    rgb(236, 240, 241)
+    var(--dark-teal),
+    var(--dark-cyan),
+    var(--pearl-aqua),
+    var(--vanilla-custard),
+    var(--golden-orange),
+    var(--rusty-spice)
   );
-  --text-heading: #6366f1;
-  --text-normal: #334155;
-  --gray-bg: rgba(148, 163, 184, 0.15);
-  --linear-bg: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-  --accent-primary: #6366f1;
-  --accent-secondary: #8b5cf6;
-  --accent-tertiary: #a855f7;
-  --shadow-color: rgba(99, 102, 241, 0.15);
-  --hover-bg: rgba(99, 102, 241, 0.08);
+  --text-heading: var(--dark-teal);
+  --text-normal: #102a30;
+  --gray-bg: rgba(0, 95, 115, 0.12);
+  --linear-bg: linear-gradient(135deg, var(--dark-cyan) 0%, var(--golden-orange) 55%, var(--burnt-caramel) 100%);
+  --accent-primary: var(--dark-cyan);
+  --accent-secondary: var(--golden-orange);
+  --accent-tertiary: var(--burnt-caramel);
+  --shadow-color: rgba(0, 95, 115, 0.22);
+  --hover-bg: rgba(10, 147, 150, 0.12);
 }
 
 /* Dark Modes Varibles*/
 .dark-mode {
-  --bg-color: #0f172a;
+  --bg-color: #001219;
   --page-gradient: linear-gradient(
     136deg,
-    rgb(15, 23, 42),
-    rgb(30, 41, 59),
-    rgb(55, 48, 163),
-    rgb(109, 40, 217),
-    rgb(244, 114, 182),
-    rgb(148, 163, 184)
+    var(--ink-black),
+    var(--dark-teal),
+    var(--dark-cyan),
+    var(--brown-red),
+    var(--oxidized-iron),
+    var(--burnt-caramel)
   );
-  --text-heading: #818cf8;
-  --text-normal: #cbd5e1;
-  --gray-bg: rgba(51, 65, 85, 0.4);
-  --linear-bg: linear-gradient(135deg, #818cf8 0%, #a78bfa 50%, #c084fc 100%);
-  --accent-primary: #818cf8;
-  --accent-secondary: #a78bfa;
-  --accent-tertiary: #c084fc;
-  --shadow-color: rgba(129, 140, 248, 0.25);
-  --hover-bg: rgba(129, 140, 248, 0.12);
+  --text-heading: var(--pearl-aqua);
+  --text-normal: #e6f4ef;
+  --gray-bg: rgba(148, 210, 189, 0.16);
+  --linear-bg: linear-gradient(135deg, var(--dark-cyan) 0%, var(--golden-orange) 60%, var(--rusty-spice) 100%);
+  --accent-primary: var(--pearl-aqua);
+  --accent-secondary: var(--golden-orange);
+  --accent-tertiary: var(--rusty-spice);
+  --shadow-color: rgba(148, 210, 189, 0.26);
+  --hover-bg: rgba(148, 210, 189, 0.12);
 }
 
 /* Universal CSS Code */
